@@ -1,13 +1,12 @@
 :root {
-  --title-color: #212121;
-  --text-color: #757575;
-  --main-accent-color: #2196f3;
-  --second-accent-color: #ffffff;
-  --logo-color: #000000;
-  --hero-bg-color: #2f303a;
-  --team-bg-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
-  --btn-hover-color: #188ce8;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --dark-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --btn-background-color: #188ce8;
 }
 
 body {
@@ -24,7 +23,7 @@ body {
 
 /* ---------------------HEADER--------------------- */
 .header {
-  background: var(--second-accent-color);
+  background: var(--primary-white-color);
 }
 
 .header-logo {
@@ -33,11 +32,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--logo-color);
+  color: var(--primary-black-color);
 }
 
 .accent {
-  color: var(--main-accent-color);
+  color: var(--accent-color);
 }
 
 .header-link {
@@ -46,16 +45,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--title-color);
+  color: var(--title-text-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--main-accent-color);
+  color: var(--accent-color);
 }
 
 .header-link.current {
-  color: var(--main-accent-color);
+  color: var(--accent-color);
 }
 
 .header-contacts {
@@ -63,18 +62,18 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--primary-text-color);
 }
 
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--main-accent-color);
+  color: var(--accent-color);
 }
 
 /* ---------------------HERO--------------------- */
 
 .hero {
-  background: var(--hero-bg-color);
+  background: var(--dark-background-color);
 }
 
 .hero-title {
@@ -84,7 +83,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--second-accent-color);
+  color: var(--primary-white-color);
 }
 
 .hero-btn {
@@ -96,10 +95,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--second-accent-color);
-  background: var(--main-accent-color);
+  color: var(--primary-white-color);
+  background: var(--accent-color);
   cursor: pointer;
 }
 .hero-btn:hover {
-  background-color: var(--btn-hover-color);
+  background-color: var(--btn-background-color);
 }
