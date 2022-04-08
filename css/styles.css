@@ -21,17 +21,27 @@ body {
   list-style: none;
 }
 
+.logo {
+  font-family: Raleway, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* ---------------------HEADER--------------------- */
 .header {
   background: var(--primary-white-color);
 }
 
 .header-logo {
-  font-family: Raleway, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-black-color);
 }
 
@@ -44,7 +54,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--title-text-color);
 }
 
@@ -58,10 +67,6 @@ body {
 }
 
 .header-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -122,10 +127,6 @@ body {
 /* ---------------------WORKING--------------------- */
 
 .working-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -135,10 +136,6 @@ body {
 }
 
 .team-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -166,11 +163,6 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway, Tahoma, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
@@ -183,9 +175,5 @@ body {
 }
 
 .footer-contacts {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
