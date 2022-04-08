@@ -22,6 +22,19 @@ body {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .logo {
   font-family: Raleway, Tahoma, sans-serif;
   font-weight: 700;
@@ -39,7 +52,7 @@ body {
 
 /* ---------------------HEADER--------------------- */
 .header {
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 .header-logo {
@@ -83,7 +96,7 @@ body {
 /* ---------------------HERO--------------------- */
 
 .hero {
-  background: var(--dark-background-color);
+  background-color: var(--dark-background-color);
 }
 
 .hero-title {
@@ -105,10 +118,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--btn-background-color);
 }
 
@@ -130,7 +144,7 @@ body {
 
 /* ---------------------TEAM--------------------- */
 .team {
-  background: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .team-item-title {
@@ -152,7 +166,7 @@ body {
 /* ---------------------FOOTER--------------------- */
 
 .footer {
-  background: var(--dark-background-color);
+  background-color: var(--dark-background-color);
 }
 
 .footer-logo {
@@ -182,4 +196,38 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+/* ---------------------PORTFOLIO--------------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-card-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
