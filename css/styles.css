@@ -11,6 +11,7 @@
 
 body {
   font-family: Roboto, Tahoma, sans-serif;
+  color: var(--title-text-color);
 }
 
 .link {
@@ -67,6 +68,10 @@ body {
 }
 
 .header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -114,7 +119,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 
 .benefits-item-text {
@@ -124,19 +128,9 @@ body {
   color: var(--primary-text-color);
 }
 
-/* ---------------------WORKING--------------------- */
-
-.working-title {
-  color: var(--title-text-color);
-}
-
 /* ---------------------TEAM--------------------- */
 .team {
   background: var(--secondary-background-color);
-}
-
-.team-title {
-  color: var(--title-text-color);
 }
 
 .team-item-title {
@@ -145,7 +139,6 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 
 .team-item-text {
@@ -166,14 +159,27 @@ body {
   color: var(--primary-white-color);
 }
 
-.footer-link {
+.footer-address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.footer-link {
   color: var(--primary-white-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
